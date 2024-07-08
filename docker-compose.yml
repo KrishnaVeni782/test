@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  # Background server service
+  server:
+    build: ./server
+    container_name: server
+    ports:
+      - "3001:3001"
+    environment:
+      - MONGO_URI=mongodb+srv://ravuriswapna3:oyvyuivYBaeMCeFX@cluster0.fgu5vrv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+  # Frontend client service
+  client:
+    build: ./client
+    container_name: client
+    ports:
+      - "3000:80"

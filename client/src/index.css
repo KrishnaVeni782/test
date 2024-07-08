@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(15, 253, 233, 0.884);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #790bf7;
+    color: #d6851b;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Form styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f762be;
+    color: #86bfee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555555;
+}
+
+/* Specific component styles */
+.login-container,
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+}

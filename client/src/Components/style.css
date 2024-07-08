@@ -1,0 +1,162 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1dff4e;
+    border-bottom: 1px solid #5298f5;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #481de4;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header ul li {
+    margin-left: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #5c42ee;
+    font-size: 16px;
+}
+
+.header ul li a:hover {
+    text-decoration: underline;
+}
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #5580f5;
+    border-radius: 5px;
+    background-color: #586ee9;
+    box-shadow: 0 0 10px rgba(191, 235, 32, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4c3be0;
+}
+
+.form-container form div {
+    margin-bottom: 15px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5f3cdb;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #553ed8;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.form-container button:hover {
+    background-color: #d32eaa;
+}
+
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Form styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+form h1 {
+    margin-bottom: 20px;
+}
+
+.mb-4 {
+    margin-bottom: 16px;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table styles */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
