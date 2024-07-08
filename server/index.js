@@ -31,4 +31,5 @@ async function startServer() {
 function Testing(){
     return 0;
 }
+Testing();
 startServer();
