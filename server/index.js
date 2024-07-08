@@ -11,7 +11,7 @@ const url = 'mongodb+srv://ravuriswapna3:oyvyuivYBaeMCeFX@cluster0.fgu5vrv.mongo
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
-        console.log('MongoDB connected');
+        console.log('MongoDB connected to my server');
     })
     .catch((err) => console.error('MongoDB connection error:', err));
 
